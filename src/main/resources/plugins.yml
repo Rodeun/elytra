@@ -1,0 +1,15 @@
+name: ElytraLimit
+version: 1.0.0
+main: kr.elytralimit.ElytraLimitPlugin
+api-version: "1.21"
+commands:
+  elytralimit:
+    description: 겉날개 속도 제한 설정 다시 불러오기
+    usage: /elytralimit reload
+permissions:
+  elytralimit.bypass:
+    description: 속도 제한을 받지 않음
+    default: op
+  elytralimit.admin:
+    description: /elytralimit reload 사용
+    default: op
